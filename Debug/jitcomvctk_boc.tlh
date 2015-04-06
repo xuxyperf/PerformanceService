@@ -1,0 +1,118 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.40219.01 (7d70dba5).
+//
+// e:\c\performanceservice\debug\jitcomvctk_boc.tlh
+//
+// C++ source equivalent of Win32 type library C:\\JITComVCTK_BOC.dll
+// compiler-generated file created 04/01/13 at 11:10:22 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace JITComVCTK_BOCLib {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("c596d23c-2ab4-4d39-a874-a1d6798cc187"))
+/* LIBID */ __JITComVCTK_BOCLib;
+struct /* coclass */ JITVCTK_BOC;
+struct __declspec(uuid("6af7a8ce-cd84-4b20-950e-2b3eae573ab7"))
+/* dual interface */ IJITVCTK_BOC;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IJITVCTK_BOC, __uuidof(IJITVCTK_BOC));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("8bbd6f34-9815-4208-b375-30eee148d8ff"))
+JITVCTK_BOC;
+    // [ default ] interface IJITVCTK_BOC
+
+struct __declspec(uuid("6af7a8ce-cd84-4b20-950e-2b3eae573ab7"))
+IJITVCTK_BOC : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    unsigned long SetCert (
+        _bstr_t bstrCertType,
+        _bstr_t bstrDN,
+        _bstr_t bstrSN,
+        _bstr_t bstrEmail,
+        _bstr_t bstrDNIssuer,
+        _bstr_t bstrCertBase64 );
+    unsigned long SetCertChooseType (
+        long nType );
+    unsigned long SetAlgorithm (
+        _bstr_t bstrSignAlg,
+        _bstr_t bstrEncAlg );
+    unsigned long GetErrorCode ( );
+    _bstr_t GetErrorMessage (
+        unsigned long lErrorCode );
+    _bstr_t GetData ( );
+    _bstr_t AttachSignStr (
+        _bstr_t bstrDN,
+        _bstr_t bstrSrc );
+    _bstr_t DetachSignStr (
+        _bstr_t bstrDN,
+        _bstr_t bstrSrc );
+    unsigned long SetIsUTF8 (
+        short isUTF8 );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_SetCert (
+        /*[in]*/ BSTR bstrCertType,
+        /*[in]*/ BSTR bstrDN,
+        /*[in]*/ BSTR bstrSN,
+        /*[in]*/ BSTR bstrEmail,
+        /*[in]*/ BSTR bstrDNIssuer,
+        /*[in]*/ BSTR bstrCertBase64,
+        /*[out,retval]*/ unsigned long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_SetCertChooseType (
+        /*[in]*/ long nType,
+        /*[out,retval]*/ unsigned long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_SetAlgorithm (
+        /*[in]*/ BSTR bstrSignAlg,
+        /*[in]*/ BSTR bstrEncAlg,
+        /*[out,retval]*/ unsigned long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_GetErrorCode (
+        /*[out,retval]*/ unsigned long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_GetErrorMessage (
+        /*[in]*/ unsigned long lErrorCode,
+        /*[out,retval]*/ BSTR * pErrorMessage ) = 0;
+      virtual HRESULT __stdcall raw_GetData (
+        /*[out,retval]*/ BSTR * bstrBase64Data ) = 0;
+      virtual HRESULT __stdcall raw_AttachSignStr (
+        /*[in]*/ BSTR bstrDN,
+        /*[in]*/ BSTR bstrSrc,
+        /*[out,retval]*/ BSTR * pbstrSignedData ) = 0;
+      virtual HRESULT __stdcall raw_DetachSignStr (
+        /*[in]*/ BSTR bstrDN,
+        /*[in]*/ BSTR bstrSrc,
+        /*[out,retval]*/ BSTR * pbstrSignedData ) = 0;
+      virtual HRESULT __stdcall raw_SetIsUTF8 (
+        /*[in]*/ short isUTF8,
+        /*[out,retval]*/ unsigned long * pRetVal ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "e:\c\performanceservice\debug\jitcomvctk_boc.tli"
+
+} // namespace JITComVCTK_BOCLib
+
+#pragma pack(pop)

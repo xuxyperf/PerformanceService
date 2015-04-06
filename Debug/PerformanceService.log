@@ -1,0 +1,78 @@
+﻿生成启动时间为 2013/4/1 11:10:20。
+     1>项目“E:\C\PerformanceService\PerformanceService.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\PerformanceService.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\Debug\PerformanceService.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PERFORMANCESERVICE_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\PerformanceService.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PERFORMANCESERVICE_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\PerformanceService.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PerformanceService.cpp
+         PerformanceService.cpp
+     1>e:\c\performanceservice\performanceservice.cpp(264): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\c\performanceservice\performanceservice.cpp(269): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(269): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(250) : 参见“strrev”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(269): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : 参见“strdup”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(277): warning C4172: 返回局部变量或临时变量的地址
+     1>e:\c\performanceservice\performanceservice.cpp(289): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\c\performanceservice\performanceservice.cpp(294): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(295): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(302): warning C4172: 返回局部变量或临时变量的地址
+     1>e:\c\performanceservice\performanceservice.cpp(318): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(324): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(326): warning C4172: 返回局部变量或临时变量的地址
+     1>e:\c\performanceservice\performanceservice.cpp(452): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(508): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(536): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(539): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(540): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(544): warning C4172: 返回局部变量或临时变量的地址
+     1>e:\c\performanceservice\performanceservice.cpp(563): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(566): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(567): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\c\performanceservice\performanceservice.cpp(571): warning C4172: 返回局部变量或临时变量的地址
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0804" /nologo /fo".\Debug\Performance.res" Performance.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\PerformanceService.dll.embed.manifest.res" .\Debug\PerformanceService_manifest.rc 
+       Link:
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\PerformanceService.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\PerformanceService.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C\PerformanceService\Debug\PerformanceService.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\PerformanceService.lib" /MACHINE:X86 /DLL .\Debug\Performance.res
+         .\Debug\PerformanceService.dll.embed.manifest.res
+         .\Debug\PerformanceService.obj
+         .\Debug\StdAfx.obj
+            正在创建库 .\Debug\PerformanceService.lib 和对象 .\Debug\PerformanceService.exp
+       Manifest:
+         正在删除文件“.\Debug\PerformanceService.dll.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\PerformanceService.dll.embed.manifest" /manifest .\Debug\PerformanceService.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\PerformanceService.dll.embed.manifest.res" .\Debug\PerformanceService_manifest.rc 
+       LinkEmbedManifest:
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\PerformanceService.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\PerformanceService.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C\PerformanceService\Debug\PerformanceService.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\PerformanceService.lib" /MACHINE:X86 /DLL .\Debug\Performance.res
+         .\Debug\PerformanceService.dll.embed.manifest.res
+         .\Debug\PerformanceService.obj
+         .\Debug\StdAfx.obj
+         PerformanceService.vcxproj -> E:\C\PerformanceService\.\Debug\PerformanceService.dll
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\PerformanceService.unsuccessfulbuild”。
+         正在对“.\Debug\PerformanceService.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\C\PerformanceService\PerformanceService.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.11
